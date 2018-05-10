@@ -16,7 +16,7 @@ describe 'user sees all articles' do
     it 'can click on a new article link' do
       visit '/articles'
 
-      expect(page). to have_link('Create a New Article')
+      expect(page).to have_link('Create a New Article')
     end
   end
 end
