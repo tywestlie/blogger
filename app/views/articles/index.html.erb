@@ -4,7 +4,6 @@
   <% @articles.each do |article| %>
     <li>
       <p><%= link_to article.title, article_path(article), class: 'article-title' %></p>
-      <p><%= article.body %></p>
     </li>
   <% end %>
 </ul>
